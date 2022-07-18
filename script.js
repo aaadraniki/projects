@@ -169,11 +169,14 @@ function getInfo(jsonObj){
   })
 
   function cardImageClicked(){
-    window.scrollBy(0,50);
+
     let CardName = this.previousElementSibling.firstElementChild.textContent;
     let origincard = this.parentNode;
     let originlike = this.previousElementSibling.lastElementChild.lastElementChild;
-
+    if (window.innerWidth <= 420) {
+      document.querySelector('.cardafterclick').requestFullscreen();
+    }
+    
     let description = this.parentNode.lastElementChild.firstElementChild.textContent;
     let water= this.parentNode.lastElementChild.firstElementChild.nextElementSibling.textContent;
     let sun = this.parentNode.lastElementChild.lastElementChild.previousElementSibling.textContent;
@@ -251,6 +254,9 @@ function getInfo(jsonObj){
     document.body.style.overflow = '';
     document.querySelector('.cardafterclick').style.display='none';
     document.querySelector('.number').innerHTML = '1';
+    if (window.innerWidth <= 420) {
+      document.exitFullscreen();
+    }
   }
 
   /*filter*/
