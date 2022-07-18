@@ -3,7 +3,7 @@ let footer = document.querySelector('.Footer');
 let menu = document.querySelector('.menu');
 let likeList = document.querySelector('.likeList');
 document.querySelector('.ALL').classList.add('filterActive');
-window.scrollTo(0, 1);
+
 
 const fadeOut = (el, timeout) => {
   el.style.opacity = 1;
@@ -103,6 +103,7 @@ function getInfo(jsonObj){
   })
 
   function btnClick() {
+
     this.classList.toggle('is-active');
     this.parentNode.parentNode.parentNode.classList.toggle('likedCard')
     if (mainCont.classList.contains('likepage')) {
@@ -168,7 +169,7 @@ function getInfo(jsonObj){
   })
 
   function cardImageClicked(){
-
+    window.scrollBy(0,50);
     let CardName = this.previousElementSibling.firstElementChild.textContent;
     let origincard = this.parentNode;
     let originlike = this.previousElementSibling.lastElementChild.lastElementChild;
