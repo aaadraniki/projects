@@ -3,6 +3,7 @@ let footer = document.querySelector('.Footer');
 let menu = document.querySelector('.menu');
 let likeList = document.querySelector('.likeList');
 document.querySelector('.ALL').classList.add('filterActive');
+window.scrollTo(0, 1);
 
 const fadeOut = (el, timeout) => {
   el.style.opacity = 1;

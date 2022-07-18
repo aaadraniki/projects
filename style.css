@@ -267,7 +267,7 @@ display: none;
   bottom: 0;
   height: 385px;
   background: #FFFFFF;
-  border-radius: 40px 40px 0px 0px;
+  border-radius: 40px 40px 10px 10px;
   width: 100%;
   z-index: 3;
 }
@@ -579,6 +579,11 @@ box-shadow: 16px 5px 21px 5px rgba(33, 171, 122, 0.16);
   margin-right: 0;
 
 }
+
+.cardafterclick-body{
+  
+  border-radius: 40px 40px 0px 0px;
+  }
 
 
 
