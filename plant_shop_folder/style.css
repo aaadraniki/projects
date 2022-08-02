@@ -42,6 +42,7 @@ display: none;
   background: #FFFEFE;
   border-radius: 15px;
   margin-bottom: 35px;
+  transform: scale(1);
 }
 
 .cardHead{
@@ -496,6 +497,7 @@ color: #FFFFFF;
 
 @media screen and (min-width: 1200px)  { 
 
+  
   .menu{
   width: 330px;
   height: 58px;
@@ -528,26 +530,31 @@ color: #FFFFFF;
 }
 
 .mainCont{
-     margin-left: 70px;
+     margin-left: 110px;
     justify-content: center;
-    width: 900px;
+    width: 75vw;
   }
 
   .card{
-  margin-right: 70px;
+  margin-right: 110px;
+  transform: scale(1.3);
+  margin-bottom: 85px;
 }
 
+.filter {
+    margin-bottom: 65px;
+  }
 
 .card:hover{
   -webkit-box-shadow: 16px 5px 21px 5px rgba(33, 171, 122, 0.16);
 -moz-box-shadow: 16px 5px 21px 5px rgba(33, 171, 122, 0.16);
 box-shadow: 16px 5px 21px 5px rgba(33, 171, 122, 0.16);
-  margin-right: 78px;
+  margin-right: 118px;
 }
 
 .likepage{
-  margin-top: 105px;
-  margin-left: 70px;
+  margin-top: 125px;
+  margin-left: 110px;
 }
 
 
