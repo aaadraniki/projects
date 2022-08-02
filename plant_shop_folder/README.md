@@ -1,2 +1,2 @@
 deploy
-https://aaadraniki.github.io/projects/
+https://aaadraniki.github.io/projects/index.html
