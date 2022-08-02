@@ -1,6 +1,6 @@
-#Plant Shop\
-deploy: https://aaadraniki.github.io/projects/test/test.html\
-API:\
+#Plant Shop  
+deploy: https://aaadraniki.github.io/projects/test/test.html  
+API:  
 
-#Test\
-https://aaadraniki.github.io/projects/test/test.html\
+#Test  
+https://aaadraniki.github.io/projects/test/test.html  
