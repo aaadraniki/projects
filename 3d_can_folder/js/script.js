@@ -86,7 +86,7 @@ scene.add(aLight, new THREE.AmbientLight(0xffffff, 0.5));
 let loader = new THREE.GLTFLoader();
 let obj = null;
 
-loader.load('https://raw.githubusercontent.com/aaadraniki/projects/web-pages/assets/models/iron_man/scene.gltf', function(gltf) {
+loader.load('https://raw.githubusercontent.com/aaadraniki/projects/web-pages/3d_can_folder/models/black_m/scene.gltf', function(gltf) {
   obj = gltf.scene;
   scene.add(obj);
 });

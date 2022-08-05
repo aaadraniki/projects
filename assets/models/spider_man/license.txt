@@ -1,11 +1,11 @@
 Model Information:
-* title:	Spiderman
-* source:	https://sketchfab.com/3d-models/spiderman-b5c87f4ac60b4f5184805edebdd981f4
-* author:	Carissa (https://sketchfab.com/cclarke468)
+* title:	Spider-Man No Way Home (Rigged)
+* source:	https://sketchfab.com/3d-models/spider-man-no-way-home-rigged-9f0f2ab778194c52911a549110e597e0
+* author:	Visiion (https://sketchfab.com/VisiionLovesYou)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Spiderman" (https://sketchfab.com/3d-models/spiderman-b5c87f4ac60b4f5184805edebdd981f4) by Carissa (https://sketchfab.com/cclarke468) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Spider-Man No Way Home (Rigged)" (https://sketchfab.com/3d-models/spider-man-no-way-home-rigged-9f0f2ab778194c52911a549110e597e0) by Visiion (https://sketchfab.com/VisiionLovesYou) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
