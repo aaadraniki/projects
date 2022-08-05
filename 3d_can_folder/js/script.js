@@ -68,7 +68,7 @@ let HEIGHT = main.offsetHeight;
 
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(75, WIDTH / HEIGHT, 0.1, 1000);
-camera.position.z = 7; // Отдаление камеры
+camera.position.z = 15; // Отдаление камеры
 
 let renderer = new THREE.WebGLRenderer();
 renderer.setClearColor(0x404040);
